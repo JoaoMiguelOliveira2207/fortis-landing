@@ -16,7 +16,7 @@ export default function Page() {
             <h2 className="text-3xl font-bold mb-4">Sobre nós</h2>
             <p className="text-gray-700">
               Mais de 20 anos de experiência, histórico com DHL, Prumo Engenharia, SBT e outros.
-              Empresa familiar com atendimento direto do dono e foco em comida de qualidade.
+              Empresa familiar com atendimento direto do dono e foco em alimentação de qualidade.
             </p>
           </div>
         </section>
