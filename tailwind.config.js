@@ -16,7 +16,16 @@ export default {
       fontFamily: {
         sans: ["Inter", "Arial", "sans-serif"],
       },
+      keyframes: {
+        slide: {
+          "0%": { transform: "translateX(0)" },
+          "100%": { transform: "translateX(-50%)" },
+        },
+      },
+      animation: {
+        slide: "slide 25s linear infinite",
+      },
     },
   },
   plugins: [],
-}
+};
