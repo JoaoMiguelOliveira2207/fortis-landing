@@ -1,10 +1,10 @@
-"use client"
-
 import Header from "@/app/components/Header";
 import Hero from "@/app/components/Hero";
 import Services from "@/app/components/Services";
 import Differentials from "@/app/components/Diferentials";
-import Clients from "@/app/components/Client";
+import Clients from "@/app/components/Clients";
+import TransportedKitchen from "@/app/components/TransportedKitchen";
+import KitchenAssembly from "@/app/components/KitchenAssembly";
 import Footer from "@/app/components/Footer";
 
 export default function Page() {
@@ -13,8 +13,8 @@ export default function Page() {
       <Header />
       <main>
         <Hero />
-        <section id="sobre" className="py-16">
-          <div className="max-w-4xl mx-auto px-6 text-center">
+        <section id="sobre" className="py-16 bg-fortis-lightblue/5">
+          <div className="max-w-4xl mx-auto px-6 text-center ">
             <h2 className="text-3xl font-bold mb-4">Sobre nós</h2>
             <p className="text-gray-700">
               Mais de 20 anos de experiência, histórico com DHL, Prumo Engenharia, SBT e outros.
@@ -22,10 +22,11 @@ export default function Page() {
             </p>
           </div>
         </section>
-
-        <Services />
-        <Differentials />
         <Clients />
+        <TransportedKitchen />
+        <KitchenAssembly />
+        <Differentials />
+        <Services />
 
         <section className="py-16 bg-fortis-lightblue/5 text-center">
           <div className="max-w-4xl mx-auto px-6">

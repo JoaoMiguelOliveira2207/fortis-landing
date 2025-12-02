@@ -7,6 +7,7 @@ export default function Clients() {
     "/Logo_Cultura.png",
     "/Logo_Dauge.png",
     "/Logo_DHL.png",
+    "Logo_InterGigante.svg",
     "/Logo_Prumo.png",
     "/Logo_Record.png",
     "/Logo_SBT.png",
@@ -14,7 +15,7 @@ export default function Clients() {
     "/Logo_TVE.png",
   ];
 
-  const duplicated = [...clients, ...clients];
+  const clientList = [...clients, ...clients];
 
   return (
     <section className="py-20 bg-white">
@@ -30,7 +31,7 @@ export default function Clients() {
               whiteSpace: "nowrap",
             }}
           >
-            {duplicated.map((src, i) => (
+            {clientList.map((link, i) => (
               <div
                 key={i}
                 className="
@@ -41,7 +42,7 @@ export default function Clients() {
                 "
               >
                 <Image
-                  src={src}
+                  src={link}
                   alt={`Cliente ${i}`}
                   width={200}
                   height={200}
@@ -53,7 +54,7 @@ export default function Clients() {
         </div>
 
         {/* CSS da animação */}
-        <style jsx>{`
+        <style>{`
             @keyframes slide {
               0% {
                 transform: translateX(0);

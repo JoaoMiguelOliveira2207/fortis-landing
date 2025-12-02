@@ -14,7 +14,7 @@ export default function Hero() {
           </h1>
           <p className="mt-6 text-lg max-w-2xl">
             Fornecemos refeições de qualidade excepcional para empresas, obras e instituições.
-            Tradição, confiabilidade e sabor em cada refeição.
+            Tradição e confiabilidade nas equipes, sabor caseiro em cada prato servido.
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
